@@ -60,7 +60,7 @@ st.title("🍄Mushroom Safety Checker🍄")
 st.write("Welcome to the Mushroom Safety Checker app! Don't know if it's safe to eat? Let us help you! How does your mushroom look? 👀")
 
 #load your dataset
-df = pd.read_excel("mushrooms dataset.xlsx")
+df = pd.read_excel("mushrooms_dataset.xlsx")
 # Replace '?' with 'missing' so LabelEncoder can handle it properly
 df.replace('?', 'missing', inplace=True)
 #print(df.head()) #check if the dataset has been loaded correctly
